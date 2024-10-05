@@ -51,8 +51,10 @@ for epoch in range(100):
 - Improve the Monte Carlo simulation to explore more robust global optimization strategies.
 
 # Test Results
-
+## Only Loss Test Lower Better
 ![Only Loss Low Better](https://github.com/MeforgersDev/AixrOptima/blob/main/tests/only_loss.png?raw=true)
+
+## F1 Test higher better - Loss Test Lower better
 
 ![F1 Score And Loss](https://github.com/MeforgersDev/AixrOptima/blob/main/tests/F1_LOSS.png?raw=true)
 
