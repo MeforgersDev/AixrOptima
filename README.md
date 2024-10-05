@@ -1,6 +1,6 @@
 # AixrOptima
 
-AixrOptimaQuantum is an advanced optimization algorithm designed to outperform other algorithms by leveraging quantum functions for faster learning rates and better convergence. This project includes a custom quantum circuit simulation, dynamic learning rate adjustments, quantum memory, and Monte Carlo simulations for global optimization.
+AixrOptima is an advanced optimization algorithm designed to outperform other algorithms by leveraging quantum functions for faster learning rates and better convergence. This project includes a custom quantum circuit simulation, dynamic learning rate adjustments, quantum memory, and Monte Carlo simulations for global optimization.
 
 ## Features
 
