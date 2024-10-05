@@ -50,6 +50,13 @@ for epoch in range(100):
 - Add support for different optimization techniques, such as RMSprop.
 - Improve the Monte Carlo simulation to explore more robust global optimization strategies.
 
+# Test Results
+
+![Only Loss Low Better](https://github.com/MeforgersDev/AixrOptima/blob/main/tests/only_loss.png?raw=true)
+
+![F1 Score And Loss](https://github.com/MeforgersDev/AixrOptima/blob/main/tests/F1_LOSS.png?raw=true)
+
+
 # License
 
 **This project is licensed under the MIT License. See the LICENSE file for more details.**
