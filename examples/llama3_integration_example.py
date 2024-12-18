@@ -1,10 +1,7 @@
-# examples/llama3_integration_example.py
 import torch
 import torch.nn.functional as F
 from aixroptima import integrate_aixroptima, QuantumInspiredOptimizer, regularization_loss
 
-# Burada LLama3 benzeri bir modelin tanımlandığını varsayalım.
-# Örneğin, önceki mesajlardaki LLama3 model kodunu buraya import ettiğinizi düşünün.
 from your_llama3_model import Transformer, ModelArgs
 
 args = ModelArgs(vocab_size=32000)
