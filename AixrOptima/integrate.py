@@ -2,11 +2,7 @@ import torch
 from .lora import LowRankAdaptation
 
 def integrate_aixroptima(model, rank=4, bits=4, use_quantization=True, per_channel_quant=True):
-    """
-    Modelin linear katmanlarını tespit ederek LowRankAdaptation ekler.
-    Orijinal ağırlıkları dondurur, forward'da LowRankAdaptation'dan elde edilen
-    ağırlıkları kullanır.
-    """
+    
     for name, module in model.named_modules():
         if hasattr(module, 'weight') and module.weight is not None and module.weight.ndim == 2:
             with torch.no_grad():
